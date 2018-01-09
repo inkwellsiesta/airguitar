@@ -17,7 +17,7 @@ int readSensor(int i) {
   return touchRead(pins[i]) << 10;
 }
 
-void adjustAvg(int diff) {
+void adjustAvg(int i, int diff) {
   if (diff > 0) {
     avg[i] += diff >> 13; // increase average slowly
   } else {

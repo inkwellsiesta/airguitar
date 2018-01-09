@@ -75,7 +75,7 @@ void loop() {
       }
     }
 
-    adjustAvg(diff);
+    adjustAvg(i, diff);
   }
 
   if (!startup) {
