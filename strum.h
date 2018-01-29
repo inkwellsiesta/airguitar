@@ -2,6 +2,7 @@
 
 #define FINGER_DELAY 5
 #define STRUM_SENSOR 0
+#define FIRST_FRET_SENSOR 1
 
 AudioSynthKarplusStrong  string1;
 AudioSynthKarplusStrong  string2;
