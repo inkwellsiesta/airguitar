@@ -1,7 +1,7 @@
 #include "chords.h"
 
 #define FINGER_DELAY 5
-#define STRUM_SENSOR    0
+#define STRUM_SENSOR 0
 
 AudioSynthKarplusStrong  string1;
 AudioSynthKarplusStrong  string2;
